@@ -1,9 +1,11 @@
 # @octokit/rest-url-template
 
----
-⚠️ `@octokit/rest-url-template` is not yet published to npm, we are still
-exploring it as part of [the implementation of `@octokit/rest`](https://github.com/octokit/node-github/pull/680).
----
+> GitHub REST API-specific URL template parser
+
+[![Build Status](https://travis-ci.org/octokit/rest.js.svg?branch=master)](https://travis-ci.org/octokit/rest.js)
+[![Coverage Status](https://coveralls.io/repos/github/octokit/rest.js/badge.svg)](https://coveralls.io/github/octokit/rest.js)
+[![Greenkeeper](https://badges.greenkeeper.io/octokit/rest.js.svg)](https://greenkeeper.io/)
+[![npm](https://img.shields.io/npm/v/github.svg)](https://www.npmjs.com/package/github)
 
 A GitHub-specific url parse method that implements only the parts of the
 [RFC 6570 URI Template specification](https://tools.ietf.org/html/rfc6570)
