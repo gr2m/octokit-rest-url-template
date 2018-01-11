@@ -1,14 +1,16 @@
 {
   "name": "@octokit/rest-url-template",
-  "version": "1.0.0",
+  "version": "0.0.0-development",
   "publishConfig": {
     "access": "public"
   },
-  "description": "",
+  "description": "GitHub REST API-specific URL template parser",
   "main": "index.js",
   "scripts": {
     "coverage": "tap --coverage-report=html",
-    "test": "tap --100 --coverage test.js"
+    "coverage:upload": "tap --coverage-report=text-lcov | coveralls",
+    "test": "tap --100 --coverage test.js",
+    "semantic-release": "semantic-release"
   },
   "repository": {
     "type": "git",
@@ -22,6 +24,7 @@
   },
   "homepage": "https://github.com/gr2m/octokit-rest-url-template#readme",
   "devDependencies": {
-    "tap": "^11.0.1"
+    "tap": "^11.0.1",
+    "semantic-release": "^11.0.2"
   }
 }
