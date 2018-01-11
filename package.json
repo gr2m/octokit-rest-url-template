@@ -1,0 +1,27 @@
+{
+  "name": "@octokit/rest-url-template",
+  "version": "1.0.0",
+  "publishConfig": {
+    "access": "public"
+  },
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "coverage": "tap --coverage-report=html",
+    "test": "tap --100 --coverage test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gr2m/octokit-rest-url-template.git"
+  },
+  "keywords": [],
+  "author": "Gregor Martynus (https://github.com/gr2m)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gr2m/octokit-rest-url-template/issues"
+  },
+  "homepage": "https://github.com/gr2m/octokit-rest-url-template#readme",
+  "devDependencies": {
+    "tap": "^11.0.1"
+  }
+}
