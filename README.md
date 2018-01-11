@@ -23,7 +23,8 @@ have not been passed the placeholders will be left in the returned URL and
 Placeholders of type `{/varname}`, `{?varname}` or `{+varname}` are removed
 from the URL if `varname` was not passed.
 
-Any variable that is passed and used is added to the returned `variables.missing` array.
+Any passed variable that was used as replacement in the url is added to the
+returned `variables.used` array.
 
 ## Usage
 
