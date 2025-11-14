@@ -15,6 +15,6 @@
   "author": "Gregor Martynus (https://github.com/gr2m)",
   "license": "MIT",
   "devDependencies": {
-    "tap": "^16.3.3"
+    "tap": "^21.1.3"
   }
 }
